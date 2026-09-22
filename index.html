@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173a25">
+  <meta name="description" content="InvitaciÃ³n de boda de Natalia y Vicente">
+  <title>Natalia & Vicente â€” Nuestra boda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#invitacion">Saltar a la invitaciÃ³n</a>
+
+  <div class="entrance" id="entrance" role="dialog" aria-modal="true" aria-labelledby="entrance-title">
+    <div class="entrance__glow" aria-hidden="true"></div>
+    <div class="entrance__copy">
+      <p>Tenemos algo muy especial para ti</p>
+      <h2 id="entrance-title">Natalia <span>&</span> Vicente</h2>
+    </div>
+    <button class="envelope" id="open-envelope" type="button" aria-label="Abrir la invitaciÃ³n">
+      <span class="envelope__shadow"></span>
+      <span class="envelope__back"></span>
+      <span class="envelope__letter" aria-hidden="true">
+        <small>Nuestra boda</small>
+        <strong>N <i>&</i> V</strong>
+        <em>18 Â· 08 Â· 2027</em>
+      </span>
+      <span class="envelope__flap"></span>
+      <span class="envelope__front"></span>
+      <span class="envelope__seal" aria-hidden="true">NV</span>
+    </button>
+    <p class="entrance__hint">Toca el sobre para abrir</p>
+  </div>
+
+  <main class="invitation" id="invitacion">
+    <section class="hero" aria-labelledby="main-title">
+      <img src="assets/couple-hero.jpg" alt="Pareja de reciÃ©n casados en un jardÃ­n histÃ³rico" width="1536" height="2048">
+      <div class="hero__shade"></div>
+      <div class="hero__date reveal">
+        <span>Save the date</span>
+        <strong>18/08</strong>
+      </div>
+      <h1 id="main-title" class="hero__names reveal">Natalia <i>&</i> Vicente</h1>
+    </section>
+
+    <section class="announcement green-moment" aria-labelledby="announcement-title">
+      <div class="announcement__inner reveal">
+        <p class="eyebrow" id="announcement-title">Â¡Nos casamos!</p>
+        <p class="intro">Con mucha ilusiÃ³n queremos compartir contigo el comienzo de nuestra vida juntos.</p>
+        <div class="date-lockup" aria-label="18 de agosto de 2027 a las 16 horas">
+          <span>Agosto</span>
+          <b>18</b>
+          <span>16:00</span>
+        </div>
+        <p class="year">2027</p>
+        <p>SerÃ¡ un dÃ­a inolvidable<br>y queremos vivirlo contigo.</p>
+        <p class="script-line">Con amor, Natalia & Vicente</p>
+      </div>
+
+      <div class="venue-line reveal">
+        <svg viewBox="0 0 190 54" role="img" aria-label="IlustraciÃ³n de una villa clÃ¡sica">
+          <path d="M12 45h166M19 41V20h152v21M30 41V27m22 14V27m86 14V27m22 14V27M10 20h170M25 16h140M44 16V8h102v8M54 8h82M69 41V24c0-8 7-14 15-14h22c8 0 15 6 15 14v17M84 41V25h22v16"/>
+        </svg>
+        <h2>Villa del Bosque</h2>
+        <p>UbicaciÃ³n por confirmar</p>
+      </div>
+    </section>
+
+    <figure class="photo photo--walk">
+      <img src="assets/couple-walk.jpg" alt="Los novios caminan juntos por unas escaleras de piedra" width="1536" height="2048" loading="lazy">
+    </figure>
+
+    <section class="details cream-moment" aria-label="Detalles de la celebraciÃ³n">
+      <article class="itinerary reveal">
+        <p class="eyebrow dark">Nuestro dÃ­a</p>
+        <h2>Itinerario</h2>
+        <div class="timeline">
+          <div><time>16:00</time><span class="timeline__icon rings" aria-hidden="true"></span><h3>Ceremonia</h3><p>Lugar por confirmar</p></div>
+          <div><time>18:00</time><span class="timeline__icon coupe" aria-hidden="true"></span><h3>RecepciÃ³n</h3><p>Lugar por confirmar</p></div>
+          <div><time>20:00</time><span class="timeline__icon music" aria-hidden="true">â™«</span><h3>CelebraciÃ³n</h3><p>Cena y baile</p></div>
+        </div>
+      </article>
+
+      <article class="dress reveal" aria-labelledby="dress-title">
+        <h2 id="dress-title">Dress code</h2>
+        <p>Formal</p>
+        <p class="fine">Nos encantarÃ¡ verte elegante. Por favor, reserva el blanco para la novia.</p>
+        <h3>Mujeres</h3>
+        <div class="swatches" aria-label="Colores sugeridos para mujeres">
+          <i style="--c:#e9d9d8"></i><i style="--c:#d4a595"></i><i style="--c:#e8e0ce"></i><i style="--c:#343936"></i>
+        </div>
+        <h3>Hombres</h3>
+        <div class="swatches" aria-label="Colores sugeridos para hombres">
+          <i style="--c:#181918"></i><i style="--c:#737878"></i><i style="--c:#38433c"></i><i style="--c:#164358"></i>
+        </div>
+      </article>
+
+      <article class="gifts reveal" aria-labelledby="gifts-title">
+        <span class="gift-icon" aria-hidden="true">â—‡</span>
+        <h2 id="gifts-title">Mesa de regalos</h2>
+        <p>Tu presencia es nuestro mejor regalo. Si deseas tener un detalle con nosotros, pronto compartiremos aquÃ­ nuestras opciones.</p>
+        <button class="small-button" type="button" data-placeholder="regalos">PrÃ³ximamente</button>
+      </article>
+
+      <article class="rsvp reveal" aria-labelledby="rsvp-title">
+        <h2 id="rsvp-title">RSVP</h2>
+        <p class="script-line dark-script">Reserva nuestro dÃ­a</p>
+        <p>Por favor, confirma tu asistencia antes del <strong>18 de julio de 2027</strong>.</p>
+        <button class="small-button" id="rsvp-button" type="button">Confirmar asistencia</button>
+        <p class="status" id="rsvp-status" aria-live="polite"></p>
+      </article>
+    </section>
+
+    <section class="countdown-scene" aria-labelledby="countdown-title">
+      <img src="assets/couple-close.jpg" alt="Retrato de los novios en un jardÃ­n" width="1536" height="2048" loading="lazy">
+      <div class="countdown-scene__shade"></div>
+      <div class="countdown-wrap reveal">
+        <p class="eyebrow" id="countdown-title">Faltan</p>
+        <div class="countdown" role="timer" aria-live="off">
+          <span><b id="days">00</b><small>DÃ­as</small></span>
+          <span><b id="hours">00</b><small>Horas</small></span>
+          <span><b id="minutes">00</b><small>Min</small></span>
+          <span><b id="seconds">00</b><small>Seg</small></span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="closing green-moment">
+      <div class="closing__inner reveal">
+        <p class="eyebrow">Nos vemos pronto</p>
+        <h2>Natalia <i>&</i> Vicente</h2>
+        <p>Gracias por ser parte de nuestra historia.</p>
+        <button class="calendar-link" id="calendar-button" type="button">Guardar la fecha</button>
+        <p class="closing__date">18 Â· 08 Â· 2027</p>
+      </div>
+      <div class="closing__monogram" aria-hidden="true">N<span>&</span>V</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
